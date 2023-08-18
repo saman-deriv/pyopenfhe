@@ -15,7 +15,7 @@ include_directories(${OpenFHE_INCLUDE}/pke)
 include_directories(${OpenFHE_INCLUDE}/binfhe)
 include_directories(${OpenFHE_INCLUDE})
 
-add_subdirectory(dependencies/pybind)
+add_subdirectory(dependencies/pybind11)
 add_subdirectory(src)
 
 #pybind11_add_module(add_m src/module.cpp)
